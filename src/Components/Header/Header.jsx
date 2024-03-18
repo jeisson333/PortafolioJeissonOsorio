@@ -1,4 +1,6 @@
 import React, { useRef, useEffect } from "react";
+import { RiBearSmileFill } from "react-icons/ri";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
   const headerRef = useRef(null);
@@ -33,6 +35,12 @@ const Header = () => {
 
   const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
 
+  const handleButtonClick = () => {
+    const numeroWhatsApp = "3112520134";
+    const url = `https://wa.me/${numeroWhatsApp}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <header
       ref={headerRef}
@@ -43,7 +51,7 @@ const Header = () => {
           {/* LOGO */}
           <div className="flex items-center gap-[10px]">
             <span className="w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full flex items-center justify-center">
-              J
+              J<RiBearSmileFill />
             </span>
             <div className="leading-[20px]">
               <h2 className="text-xl text-smallTextColor font-[700]">
@@ -63,7 +71,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#about"
                 >
-                  About
+                  Quien Soy
                 </a>
               </li>
               <li>
@@ -72,7 +80,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#services"
                 >
-                  Services
+                  Experiencia
                 </a>
               </li>
               <li>
@@ -81,7 +89,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#portfolio"
                 >
-                  Portfolio
+                  Proyectos
                 </a>
               </li>
               <li>
@@ -90,15 +98,19 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#contact"
                 >
-                  Contact
+                  Contactame
                 </a>
               </li>
             </ul>
           </div>
           {/*menu right*/}
           <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 ">
-              <i class="ri-send-plane-line"></i> Let's Talk
+            <button
+              onClick={handleButtonClick}
+              className="flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 "
+            >
+              <FaWhatsapp />
+              Hablemos
             </button>
             <span
               onClick={toggleMenu}

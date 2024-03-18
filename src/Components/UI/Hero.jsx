@@ -1,11 +1,23 @@
 import React from "react";
-import heroImg from "../../assets/images/hero.svg";
+import heroImg from "../../assets/images/JeissonOsorio.svg";
 import CountUp from "react-countup";
+import { RiAppsFill } from "react-icons/ri";
+
+import rutaCV from "../../assets/data/cvJeissonOsorio.pdf";
 const Hero = () => {
+  const handleDownloadClick = () => {
+    const a = document.createElement("a");
+    a.href = rutaCV;
+    a.download = "cvJeissonOsorio.pdf";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  };
+
   return (
     <section className="pt-0" id="about">
       <div className="container pt-14">
-        <div className="md:flex  items-center justify-between sm:flex-col md:flex-row">
+        <div className="md:flex items-center justify sm:flex-col md:flex-row">
           {/* hero left content */}
           <div className="w-full md:basis-1/2">
             <h5
@@ -13,14 +25,14 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[600] text-[16px]"
             >
-              Hero welcome
+              Bienvenido
             </h5>
             <h1
               data-aos="fade-up"
               data-aos-duration="1500"
               className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5"
             >
-              I'm Jeisson Osorio <br /> Software Developer{" "}
+              Hola, Soy Jeisson Osorio <br /> Ingeniero de sistemas{" "}
             </h1>
             <div
               data-aos="fade-up"
@@ -30,32 +42,35 @@ const Hero = () => {
             >
               <a href="#contact">
                 <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
-                  <i class="ri-mail-line"></i> Hire me
+                  <i class="ri-mail-line"></i> Contratame
                 </button>
               </a>
-              <a
-                href="#portafolio"
+              <button
+                onClick={handleDownloadClick}
                 className="text-smallTextColor font-[600] text[16px] border-b border-solid border-smallTextColor"
               >
-                See portfolio
-              </a>
+                Descargar CV
+              </button>
             </div>
             <p
               data-aos="fade-left"
               data-aos-duration="1500"
-              className="flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10"
+              className="flex gap-2 text-headingColor mt-14 font-[500] text-[16px] leading-7 sm:pl-14 sm:pr-10"
             >
               <span>
-                <i class="ri-apps-line"></i>
+                <RiAppsFill />
               </span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              inventore ipsam exercitationem natus quidem voluptate aliquid,
-              repellendus quibusdam maxime necessitatibus ipsum reprehenderit,
-              eaque nisi commodi asperiores! Dignissimos maiores earum cum.
+              Soy un desarrollador de aplicaciones web con experiencia en
+              tecnologías modernas como JavaScript, React, Node.js y Express. Me
+              especializo en la creación de soluciones innovadoras y eficientes
+              para proyectos web, combinando mi pasión por el desarrollo
+              frontend y backend. Comprometido con mantenerme actualizado, busco
+              constantemente mejorar mis habilidades y contribuir al éxito de
+              los equipos de desarrollo.
             </p>
             <div className="flex items-center gap-9 mt-14">
               <span className="text-smallTextColor text-[15px] font-[600]">
-                Follow me:
+                Sígueme:
               </span>
               <span>
                 <a
@@ -120,7 +135,7 @@ const Hero = () => {
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={15} duration={3} suffix="+" />
+                <CountUp start={0} end={5} duration={3} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Projects Completed
