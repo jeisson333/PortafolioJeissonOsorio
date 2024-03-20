@@ -5,7 +5,7 @@ const Contact = () => {
     <section id="contact" className="pb-16">
       <div className="container">
         <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
-          Get in touch
+          Contáctame
         </h2>
         <div className="md:flex justify-between items-center">
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
@@ -23,34 +23,28 @@ const Contact = () => {
               <div className="mb-5">
                 <input
                   type="text"
-                  placeholder="Enter your name"
+                  placeholder="Nombre"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
               <div className="mb-5">
                 <input
                   type="email"
-                  placeholder="Enter your email"
+                  placeholder="Correo electrónico"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
-              <div className="mb-5">
-                <input
-                  type="text"
-                  placeholder="Subject"
-                  className="w-full p-3 focus:outline-none rounded-[5px]"
-                />
-              </div>
+
               <div className="mb-5">
                 <textarea
                   type="text"
                   rows={3}
-                  placeholder="Write your message"
+                  placeholder="Mensaje"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
               <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">
-                Send Message
+                Enviar
               </button>
             </form>
           </div>
