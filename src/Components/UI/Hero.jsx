@@ -2,6 +2,7 @@ import React from "react";
 import heroImg from "../../assets/images/JeissonOsorio.svg";
 import CountUp from "react-countup";
 import { RiAppsFill } from "react-icons/ri";
+import { MdOutlineEmail } from "react-icons/md";
 
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
@@ -44,7 +45,7 @@ const Hero = () => {
             >
               <a href="#contact">
                 <button className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
-                  <i class="ri-mail-line"></i> Contratame
+                  <MdOutlineEmail /> Contratame
                 </button>
               </a>
               <button
