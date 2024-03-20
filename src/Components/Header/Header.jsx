@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { RiBearSmileFill } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoIosMenu } from "react-icons/io";
 
 const Header = () => {
   const headerRef = useRef(null);
@@ -116,7 +117,7 @@ const Header = () => {
               onClick={toggleMenu}
               className="text-2xl text-smallTextColor md:hidden cursor-pointer"
             >
-              <i class="ri-menu-line"></i>
+              <IoIosMenu />
             </span>
           </div>
         </div>

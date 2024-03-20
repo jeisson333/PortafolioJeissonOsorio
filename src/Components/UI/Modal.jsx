@@ -6,17 +6,17 @@ const Modal = ({ activeId, setShowModal }) => {
 
   return (
     <div className=" w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-40 ">
-      <div className="w-11/12 md:max-w-[600px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
-        <div>
+      <div className="md:flex md:flex-wrap md:items-start w-11/12 md:max-w-[900px] md:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+        <div className="md:w-1/2 md:pr-4">
           <figure>
             <img
-              className="rounded-[8px] h-[150px] w-full"
+              className="rounded-[8px] md:h-[400px] md:w-[450px] "
               src={portfolio.imgUrl}
               alt={portfolio.title}
             />
           </figure>
         </div>
-        <div>
+        <div className=" md:w-1/2">
           <h2 className="text-2xl text-headingColor font-[700] my-5">
             {portfolio.title}
           </h2>

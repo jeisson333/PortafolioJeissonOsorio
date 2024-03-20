@@ -31,7 +31,7 @@ const portfolios = [
     category: "Full Stack",
     title: "Dogs - MaxMas",
     description:
-      "Maxmas es una plataforma web dedicada a la exploración y estudio de más de 200 razas de perros a nivel global. La página permite a los usuarios acceder a información detallada sobre cada raza, incluyendo su historia, características físicas y temperamento. Además, facilita la contribución de usuarios para agregar nuevas razas mediante la inclusión de datos cruciales como peso, altura y origen histórico, enriqueciendo así el recurso y fomentando la participación comunitaria entre amantes de los perros.",
+      "Maxmas: plataforma web para explorar y estudiar 200+ razas de perros globalmente. Ofrece información detallada sobre historia, características y temperamento. Permite a usuarios contribuir con datos como peso, altura y origen, fomentando participación comunitaria.",
     technologies: [
       "React",
       "Redux",
