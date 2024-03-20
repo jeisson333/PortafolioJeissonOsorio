@@ -38,9 +38,14 @@ const Modal = ({ activeId, setShowModal }) => {
               );
             })}
           </div>
-          <a href={portfolio.siteUrl}>
+          <a href={portfolio.siteUrl} target="_blank">
             <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300 ">
-              Live Site
+              Visitar
+            </button>
+          </a>
+          <a href={portfolio.repositoriesUrl} target="_blank" className="p-4">
+            <button className="bg-primaryColor text-white py-2 px-4 my-8 rounded-[8px] font-[500] hover:bg-headingColor ease-in duration-300 ">
+              Ver Codigo
             </button>
           </a>
         </div>

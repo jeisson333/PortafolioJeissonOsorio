@@ -36,7 +36,7 @@ const Portfolio = () => {
           <div className="mb-7 sm:mb-0">
             <h3 className="text-headingColor text-[2rem] font-[700]">
               {" "}
-              My recent projects
+              Mis Proyectos
             </h3>
           </div>
 
@@ -47,7 +47,7 @@ const Portfolio = () => {
             >
               All
             </button>
-            <button
+            {/* <button
               onClick={() => setSelectTab("backend")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
             >
@@ -58,7 +58,7 @@ const Portfolio = () => {
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px]"
             >
               Frontend
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const Portfolio = () => {
                       className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
                     >
                       {" "}
-                      See details
+                      Ver Detalles
                     </button>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Portfolio = () => {
               className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
             >
               {" "}
-              Load More
+              Carga Más
             </button>
           )}
         </div>
