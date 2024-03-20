@@ -3,6 +3,8 @@ import heroImg from "../../assets/images/JeissonOsorio.svg";
 import CountUp from "react-countup";
 import { RiAppsFill } from "react-icons/ri";
 
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+
 import rutaCV from "../../assets/data/cvJeissonOsorio.pdf";
 const Hero = () => {
   const handleDownloadClick = () => {
@@ -68,33 +70,35 @@ const Hero = () => {
               constantemente mejorar mis habilidades y contribuir al éxito de
               los equipos de desarrollo.
             </p>
-            <div className="flex items-center gap-9 mt-14">
+            <div className="flex items-center gap-5 mt-14">
               <span className="text-smallTextColor text-[15px] font-[600]">
                 Sígueme:
               </span>
               <span>
                 <a
-                  href="#instagram"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  href="https://www.instagram.com/jf.osorio/"
+                  target="_blank"
+                  className="text-smallTextColor text-[20px] font-[600] hover:text-purple-500"
                 >
-                  {" "}
-                  <i class="ri-instagram-line"></i>
+                  <FaInstagram />
                 </a>
               </span>
               <span>
                 <a
-                  href="#github"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  href="https://github.com/jeisson333"
+                  target="_blank"
+                  className="text-smallTextColor text-[18px] font-[600] hover:text-green-700"
                 >
-                  <i class="ri-github-line"></i>
+                  <FaGithub />
                 </a>
               </span>
               <span>
                 <a
-                  href="#linkedin"
-                  className="text-smallTextColor text-[18px] font-[600]"
+                  href="https://www.linkedin.com/in/jeissonosorio97/"
+                  target="_blank"
+                  className="text-smallTextColor text-[18px] font-[600] hover:text-blue-700"
                 >
-                  <i class="ri-linkedin-box-line"></i>
+                  <FaLinkedin />
                 </a>
               </span>
             </div>
@@ -114,7 +118,7 @@ const Hero = () => {
                 <CountUp start={0} end={5} duration={2} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
-                Years of Experience
+                Años de Experiencia
               </h4>
             </div>
             <div className="mb-10">
@@ -122,15 +126,15 @@ const Hero = () => {
                 <CountUp start={0} end={90} duration={4} suffix="%" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
-                Success Rate
+                Tasa de Exito
               </h4>
             </div>
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
-                <CountUp start={0} end={2} duration={5} suffix="+" />
+                <CountUp start={0} end={5} duration={5} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
-                Happy Clients
+                Clientes felices
               </h4>
             </div>
             <div className="mb-10">
@@ -138,7 +142,7 @@ const Hero = () => {
                 <CountUp start={0} end={5} duration={3} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
-                Projects Completed
+                Proyectos Completados
               </h4>
             </div>
           </div>
