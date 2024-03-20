@@ -98,7 +98,7 @@ const Header = () => {
                   className="text-smallTextColor font-[600]"
                   href="#contact"
                 >
-                  Contactame
+                  Contáctame
                 </a>
               </li>
             </ul>
