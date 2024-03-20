@@ -10,13 +10,16 @@ const Services = () => {
       <div className="container lg:pt-5">
         <div className="text-center">
           <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
-            what do I help
+            Experiencia Laboral
           </h2>
-          <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-            unde? Itaque sed eius quaerat debitis quis similique earum illo hic
-            est tenetur aut necessitatibus architecto quam aliquam laboriosam,
-            aspernatur maxime!
+          <p className="lg:max-w-[610px] lg:mx-auto text-headingColor font-[500] text-[17px] leading-7">
+            Con más de cinco años de experiencia en tecnología, he destacado en
+            roles clave en empresas líderes como Main Core, Global Hitss y
+            Sonda. Mi experiencia abarca desde el desarrollo de software y
+            gestión de bases de datos hasta el trabajo en equipos ágiles, con
+            énfasis en metodologías como Scrum. Me he destacado por mi capacidad
+            para enfrentar desafíos tecnológicos y culminar proyectos de manera
+            efectiva.
           </p>
         </div>
 
@@ -26,7 +29,7 @@ const Services = () => {
               {/*vertical line running the middle*/}
               <div className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform-translate-x-1/2"></div>
               {/*left card*/}
-              <div className="mt-6 sm:mt-0 sm:mb-12">
+              <div className="mt-6 sm:mt-0 sm:mb-120">
                 <div className="flex items-center flex-col sm:flex-row">
                   <div className="flex justify-start w-full mx-auto items-center">
                     <div className="w-full sm:w-1/2 sm:pr-8">
@@ -36,11 +39,15 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 "
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                          Experience 1
+                          Desarrollador Backend <br /> Main Core
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Eum, nobis cum laudantium magnam quam, fuga
+                          desarrollar y mantener API y servicios web con Node.js
+                          y Spring Boot, así como en gestionar bases de datos
+                          como PostgreSQL, PL/SQL y Oracle, optimizando su
+                          rendimiento. Automatización de procesos y el monitoreo
+                          continuo para mejorar el rendimiento. También colabore
+                          efectivamente en equipos ágiles utilizando Scrum.
                         </p>
                       </div>
                     </div>
@@ -66,11 +73,14 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 "
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                          Experience 2
+                          Analista de Soporte <br /> Global Hitss
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Eum, nobis cum laudantium magnam quam, fuga
+                          Realice el monitoreo de servicios prepago de Claro,
+                          identificando y resolviendo incidentes con middleware,
+                          PL/SQL y UNIX. Automatizé este proceso utilizando
+                          Node.js y Python, fortaleciendo mis habilidades
+                          técnicas y contribuyendo a la eficiencia operativa.
                         </p>
                       </div>
                     </div>
@@ -96,10 +106,16 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 "
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                          Experience 3
+                          Analista de Sistemas <br /> Sonda
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          Durante mi tiempo como Analista de Sistemas en Sonda,
+                          brindé soporte integral a los aplicativos
+                          corporativos, garantizando su funcionamiento óptimo.
+                          Proporcioné soporte técnico, gestioné correos
+                          corporativos y manejé casos, fortaleciendo mis
+                          habilidades en resolución de problemas y trabajo en
+                          equipo en un entorno dinámico.
                         </p>
                       </div>
                     </div>
@@ -124,11 +140,16 @@ const Services = () => {
                         className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 "
                       >
                         <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                          Experience 4
+                          Practicante de Sistemas <br /> Adecco
                         </h3>
                         <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing
-                          elit. Eum, nobis cum laudantium magnam quam, fuga
+                          Durante mi práctica en Adecco, me centré en el
+                          desarrollo de software en Java, participando
+                          activamente en proyectos clave y aplicando las mejores
+                          prácticas para asegurar eficiencia y calidad. Colaboré
+                          estrechamente con el equipo para abordar desafíos
+                          técnicos y contribuir al éxito de los proyectos,
+                          fortaleciendo mis habilidades en un entorno laboral.
                         </p>
                       </div>
                     </div>
