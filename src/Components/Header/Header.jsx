@@ -108,7 +108,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <button
               onClick={handleButtonClick}
-              className="flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300 "
+              className="flex items-center gap-2 text-smallTextColor font-[600] border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-[#01f353] hover:text-[#003613] hover:font-[500] ease-in duration-300 "
             >
               <FaWhatsapp />
               Hablemos
