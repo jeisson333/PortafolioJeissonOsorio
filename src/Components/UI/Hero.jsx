@@ -130,14 +130,14 @@ const Hero = () => {
                 Tasa de Exito
               </h4>
             </div>
-            <div className="mb-10">
+            {/* <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
                 <CountUp start={0} end={5} duration={5} suffix="+" />
               </h2>
               <h4 className="text-headingColor font-[600] text-[18px]">
                 Clientes felices
               </h4>
-            </div>
+            </div> */}
             <div className="mb-10">
               <h2 className="text-headingColor font-[700] text-[32px]">
                 <CountUp start={0} end={5} duration={3} suffix="+" />
