@@ -22,7 +22,7 @@ const Hero = () => {
       <div className="container pt-14">
         <div className="md:flex items-center justify sm:flex-col md:flex-row">
           {/* hero left content */}
-          <div className="w-full md:basis-1/2">
+          <div className="w-full">
             <h5
               data-aos="fade-right"
               data-aos-duration="1500"
@@ -58,7 +58,7 @@ const Hero = () => {
             <p
               data-aos="fade-left"
               data-aos-duration="1500"
-              className="flex gap-2 text-headingColor mt-14 font-[500] text-[16px] leading-7 sm:pl-14 sm:pr-10"
+              className="flex gap-2 text-headingColor mt-10 font-[500] text-[16px] leading-7 sm:pl-14 sm:pr-10"
             >
               <span>
                 <RiAppsFill />
